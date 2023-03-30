@@ -12,10 +12,11 @@ const TeamCard = (props) => {
       </div>
 
       <div className='social-media'>
-        <button type='button'><a><img src='./ln-icon.png' /></a></button>
-        <button type='button'><a><img src='./tw-icon.png' /></a></button>
-        <button type='button'><a><img src='./fb-icon.png' /></a></button>
-        <button type='button'><a><img src='./ig-icon.png' /></a></button>
+        {props.linkedin != null && <button type='button'><a href={props.linkedin}><img src='./ln-icon.png' /></a></button>}
+        {props.twitter != null && <button type='button'><a href={props.twitter}><img src='./tw-icon.png' /></a></button>}
+        {props.facebook != null && <button type='button'><a href={props.facebook}><img src='./fb-icon.png' /></a></button>}
+        {props.instagram != null && <button type='button'><a href={props.instagram}><img src='./ig-icon.png' /></a></button>}
+
       </div>
 
     </div>

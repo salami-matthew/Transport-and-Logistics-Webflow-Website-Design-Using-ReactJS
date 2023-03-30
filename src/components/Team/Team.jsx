@@ -15,16 +15,25 @@ const Team = () => {
             img="./team-img1.png"
             heading="Jessca Arow"
             subHeading="Designer"
+            twitter=""
+            facebook=""
+            instagram=""
           />
           <TeamCard
             img="./team-img2.png"
             heading="Kathleen Smith"
             subHeading="Designer"
+            linkedin=""
+            twitter=""
+            facebook=""
+            instagram=""
           />
           <TeamCard
             img="./team-img3.png"
             heading="Rebecca Tylor"
             subHeading="Designer"
+            facebook=""
+            instagram=""
           />
         </div>
       </div>
