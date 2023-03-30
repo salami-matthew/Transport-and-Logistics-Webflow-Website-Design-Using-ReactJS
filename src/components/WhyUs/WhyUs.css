@@ -19,7 +19,7 @@
 .why-us-section .left-section{
   width: 929px;
   height: 610px;
-  background-image: url(./whyus-background3.png);
+  background-image: url("./whyus-background3.png");
   display: flex;
   align-items: flex-end;
   justify-content: center;
