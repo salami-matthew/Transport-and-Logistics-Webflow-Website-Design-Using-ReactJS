@@ -9,7 +9,7 @@ const Blog = () => {
     <div className='white-blog-container'>
       <div className='blog-section'>
         <Highlight info="Our Blog" />
-        <h1 className='display-text'>Our Latest News</h1>
+        <h1 className='display-text blog-head-margin'>Our Latest News</h1>
         <hr className='blog-ruler' />
         <BlogPost
           img='./blog-img1.png'

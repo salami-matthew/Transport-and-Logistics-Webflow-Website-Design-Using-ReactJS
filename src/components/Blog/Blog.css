@@ -1,5 +1,5 @@
 .white-blog-container{
-  height: 1529px;
+  height: 1700px;
   display: grid;
   place-items: center;
 }
@@ -18,4 +18,8 @@
 
 .button-container{
   margin-top: 39px;
+}
+
+.blog-head-margin{
+  margin: 16px auto 39px;
 }

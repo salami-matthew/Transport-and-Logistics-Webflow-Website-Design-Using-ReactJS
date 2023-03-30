@@ -135,8 +135,6 @@
 }
 
 .copyright-links{
-  width: 412px;
-  height: 40px;
   display: flex;
   gap: 20px;
   color: #8388A7;
