@@ -1,0 +1,35 @@
+
+.project-card{
+  width: 320.17px;
+  height: 407.91px;
+}
+
+.card-info{
+  /* width: 208px; */
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  position: relative;
+  top: 336px;
+  left: 25px;
+}
+
+.card-info h1{
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.card-info h3{
+  margin: 0;
+  font-family: 'Krub';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.52%;
+  color: #FFB629;
+}

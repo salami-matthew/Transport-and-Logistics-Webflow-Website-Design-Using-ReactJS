@@ -1,0 +1,16 @@
+.team-container{
+  height: 658px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+}
+
+.cards{
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

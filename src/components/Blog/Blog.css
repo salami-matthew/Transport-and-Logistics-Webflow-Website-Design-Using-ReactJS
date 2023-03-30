@@ -1,0 +1,21 @@
+.white-blog-container{
+  height: 1529px;
+  display: grid;
+  place-items: center;
+}
+
+.blog-section{
+  width: 948px;
+  height: 1331px;
+  display: grid;
+  place-items: center;
+}
+
+.blog-ruler{
+  width: 100%;
+  border: 1px solid #D6D6D6;
+}
+
+.button-container{
+  margin-top: 39px;
+}

@@ -1,0 +1,27 @@
+/* .address-container{
+  display: flex;
+  gap: 39px;
+} */
+
+.address-item{
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.address-item img{
+  width: 3.937rem;
+  height: 3.937rem;
+}
+
+.address-item p{
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.2rem;
+  color: white;
+}

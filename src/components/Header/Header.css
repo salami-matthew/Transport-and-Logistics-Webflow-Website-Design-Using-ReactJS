@@ -1,0 +1,33 @@
+header{
+  background-color: var(--dark-blue);
+  width: 100%;
+  height: 10rem;
+  display: grid;
+  place-items: center;
+}
+
+header img{
+  width: 13.133rem;
+  height: 2.25rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.logo-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 15.25rem;
+  width: 1199.13px;
+  height: 68px;
+}
+
+.address-bar{
+  display: flex;
+  height: 4.25rem;
+  align-items: center;
+  width: 74.945rem;
+  gap: 39px;
+}

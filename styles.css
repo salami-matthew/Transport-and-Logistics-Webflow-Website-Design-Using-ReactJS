@@ -1,0 +1,51 @@
+:root{
+  --main-yellow: #FFBE34;
+  --dark-blue: #091242;
+  --light-grey: #F4F4F4;
+  --heading-color: #1C1F35;
+  --paragraph-color: #666C89;
+  --darkest-yellow: #FFB629;
+  --mid-yellow: #FFDA56;
+  --lightest-yellow: #FFD7A6;    
+}
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+
+body{
+  width: 120rem; 
+  /* width: 100%; */
+  margin: 0;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+p, button{
+  font-family: 'Krub', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+/* for the titles under the Highlight component in every section except the banner section */
+.display-text{
+  color: var(--heading-color);
+  font-size: 35px;
+}
+
+
+/* for the white sections */
+.white-container{
+  display: grid;
+  place-items: center;
+  height: 800px;
+}
+
+
+button:hover{
+  transform: scale(1.05);
+}
+

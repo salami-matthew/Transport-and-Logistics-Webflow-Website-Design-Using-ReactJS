@@ -1,0 +1,30 @@
+.testimonial-section{
+
+  width: 1200px;
+  height: 542px;
+}
+
+.testimonial-section .upper-section{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+
+.testimonial-section span{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 13px;
+}
+
+.testimonial-section h3{
+  margin: 0;
+}
+
+.testimonial-cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

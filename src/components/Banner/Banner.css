@@ -1,0 +1,52 @@
+
+
+
+.banner{
+  background-image: url("./ship.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 875px;
+}
+
+.banner section{
+  position: absolute;
+  width: 571px;
+  height: 406px;
+  left: 360px;
+  top: 411px;
+}
+
+
+.pattern{
+  width: 4px;
+  height: 23px;
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+
+
+
+.banner h1{
+  
+  width: 554px;
+  height: 213px;
+
+  font-family: 'Rubik';
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 71px;
+  margin: 8px 0 0 0;
+  color: #FFFFFF;
+}
+
+.banner p{
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.52%;
+  margin: 6px auto 24px;
+
+
+color: #FFFFFF;
+}

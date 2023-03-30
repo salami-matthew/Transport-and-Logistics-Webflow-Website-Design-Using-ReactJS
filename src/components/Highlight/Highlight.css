@@ -1,0 +1,24 @@
+.highlight-dark{
+  background: rgba(4, 28, 55, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: fit-content;
+  height: 23px;
+}
+
+.highlight{
+  background: #E8E8E8;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: fit-content;
+  height: 23px;
+  color: #1C1F35;
+}
+
+span{
+  font-family: 'Rubik';
+  font-size: 0.875rem;
+  margin-right: 8px;
+}

@@ -1,0 +1,13 @@
+.bottom-text-icon{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.feature-text{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1C1F35;
+}

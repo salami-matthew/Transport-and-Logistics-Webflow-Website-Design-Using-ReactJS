@@ -1,0 +1,99 @@
+nav{
+  height: 4.875rem;
+  width: 100%;
+  background: rgba(9, 18, 66, 0.25);
+  display: grid;
+  place-items: center;
+}
+
+nav .menu-container{
+  width: 1197.99px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 277px;
+}
+
+nav .main-menu{
+  width: 504px;
+
+}
+
+
+.main-nav-links{
+  display: flex;
+  align-items: center;
+  width: 504px;
+  height: 78px;
+  justify-content: space-between;
+}
+
+.main-nav-links .line{
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: fit-content;
+}
+
+.line:hover{
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.dropdown-img{
+  margin-left: 10px;
+  height: 8px;
+  width: 14px;
+}
+
+nav .main-menu a{
+  text-decoration: none;
+  font-family: 'Krub';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135.02%;
+  color: #FFFFFF;
+}
+
+nav img{
+  width: 19.87px;
+  height: 19.12px;
+}
+
+nav .contact-links{
+  width: 416.99px;
+  height: 78px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+}
+
+nav .nav-btn{
+  width: 216px;
+  height: 78px;
+  background: #FFFFFF;
+  padding: 25px 50px;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-btn span{
+  font-family: 'Krub';
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 16px;
+  color: #23212A;
+}
+
+.nav-div{
+  height: 0;
+  width: 19px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: rotate(-90deg);
+}
+

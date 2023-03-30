@@ -1,0 +1,32 @@
+.project-container{
+  width: 1920px;
+  height: 759px;
+  margin-top: 97px;
+  background-image: url("./project-background.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 35px;
+}
+
+.project-container .display-text{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+
+}
+
+.project-content{
+  width: 1672px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+

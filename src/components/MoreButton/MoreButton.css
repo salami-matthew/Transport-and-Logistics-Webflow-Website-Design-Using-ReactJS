@@ -1,0 +1,52 @@
+.banner-btn{
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+  width: 194px;
+  height: 60px;
+  font-family: 'Krub', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135.02%;
+  color: #23212A;
+  border: none;
+  position: relative;
+}
+
+.banner .btn-background{
+  width: 194px;
+  height: 60px;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+button div{
+  background-color: #FFFFFF;
+  height: 30px;
+  width: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 100% 100%;
+}
+
+.banner-btn-dark{
+  background-color: #091242;
+  width: 194px;
+  height: 60px;
+  font-family: 'Krub', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135.02%;
+  color: #FFFFFF;
+  border: none;
+  position: relative;
+}
+
+button .dark{
+  background-color: #1F2A69;
+  height: 30px;
+  width: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 100% 100%;
+}
